@@ -141,17 +141,24 @@ nav a {
   padding: 2rem;
   border-radius: 1rem;
   max-width: 80%;
-  transition: transform .9s;
+  transition: transform .6s;
 }
 
-.section:hover{
-   transform: scale(1.1);
-   box-shadow: 0 0 2px 2px grey;
-}
+
 
 .ow {
   background-color: var(--off-white-color);
 }
+.section:hover{
+   transform: scale(1.1);
+   box-shadow: 2px .5px 4px 0px rgb(255, 255, 255);
+}
+.section.ow:hover{
+   transform: scale(1.1);
+   box-shadow: 2px .5px 4px 0px rgb(220, 220, 220);
+}
+
+
 .icon {
   display: flex;
   align-items: center;
